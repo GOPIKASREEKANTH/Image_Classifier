@@ -10,15 +10,15 @@ The model used to classify the given images is Convolutional Neural Network (CNN
 •	CNN model is created with convolutional layers, max pooling layers, dropout layer and dense layers. Also, the model is compiled with Adam optimizer and sparse categorical crossentropy loss.
 #### Training:  
 •	With a batch size of 32, the model is trained for 20 epochs using the training set. 
-                                                          •	Training progress is calculated, along with accuracy and loss.
+•	Training progress is calculated, along with accuracy and loss.
 #### Evaluation:  
 •	In evaluation process, accuracy and loss are calculated using graphs.
 #### Model Prediction:
 •	The trained model is used to predict labels on the test set.
-                                                          •	Also, the predictions and actual labels are stored in a CSV file 
+•	Also, the predictions and actual labels are stored in a CSV file 
                    
 ## Critical Finding:  
 •	Accuracy of the model is evaluated which indicates the model's ability to generalise to new data.
-                                                          •	Changing the learning rates, dropout rates or the model architecture will some how improves the accuracy of the model. 
+•	Changing the learning rates, dropout rates or the model architecture will some how improves the accuracy of the model. 
  
 
